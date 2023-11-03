@@ -1,20 +1,21 @@
 {
-  "dependencies": {
-    "node": "^21.1.0"
-  },
-  "name": "professional_backend_project",
+  "name": "chai-backend",
   "version": "1.0.0",
-  "description": "a backend at chai or code",
+  "description": "a backend at chai aur code channel - youtube",
+  "type": "module",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
-    "chai",
-    "backend"
+    "backend",
+    "chai"
   ],
-  "author": "niraj",
-  "license": "ISC"
+  "author": "Hitesh Choudhary",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
 }
