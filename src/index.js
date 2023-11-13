@@ -22,7 +22,7 @@ connectDB()
     });
   })
   .catch((error) => {
-    console.log("mongoDB faileld connection ", error);
+    console.log("mongoDB faileld connection", error);
   });
 
 //firts approch
